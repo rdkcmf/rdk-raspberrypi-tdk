@@ -57,7 +57,7 @@ sh sysDataDetails.sh > trDetails.log
 
 #Check advanced version of StartTDK script is available then execute
 if [ -f $StartTDK_adv ]; then
-    sh $StartTDK_adv
+    . $StartTDK_adv
 fi
 
 echo "Going to start Agent"
